@@ -13,14 +13,14 @@ app.get('/*', function (req, res) {
 });
 
 app.listen(port, () => {
-  console.log(`Server is up on port ${port}`);
+  console.log(`Server is up on port ${port}`);  //pridal som koment aby som mohol komitnut
 });
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />  
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
